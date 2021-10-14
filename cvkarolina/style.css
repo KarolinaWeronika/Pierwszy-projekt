@@ -1,0 +1,126 @@
+body
+{
+    background-image: url('img/nightsky.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+   /* font-family: 'Dancing Script', cursive;*/
+    /* font-family: 'Amatic SC', cursive;*/
+
+#header
+{
+    width: 800px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3%;
+    text-align: right;
+    font-size: 64px;
+    font-weight: 500;
+    color: rgb(186, 133, 228);
+    padding: 20px;
+}
+    
+#container
+{
+    padding: 10px 0;
+    margin-top:10px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(14, 14, 46, 0.7);*/
+    background: linear-gradient(to right top,rgba(14, 14, 46, 0.7) 20%, rgb(96, 96, 145, 0.7)100%);
+    border-radius: 5%;
+}
+
+#content
+{
+    padding: 10px 0;
+    width: 780px;   
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    
+}
+
+#nav
+{ 
+    padding: 10px 0;
+    width: 780px;   
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+#avatar
+{   
+    width: 140px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img/avatar.png");
+    background-size: 140px 180px;
+    border-radius: 5px;
+}
+
+#text   
+{
+    
+    border-radius: 5%;
+    width: 600px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(34, 34, 63, 0.7);
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(209, 197, 219);
+}
+
+.button
+{
+    
+    font-size: 21px;
+    font-family: 'Dancing Script';
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+    background-color: rgb(55, 8, 94, 0.7);
+    text-align: center;
+    color: rgb(186, 133, 228, 0.7);
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.button:hover
+{
+    background-color: rgb(90, 40, 130, 0.7);
+}
+
+#footer
+{
+    width: 800px;
+    height: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    color:rgba(245, 245, 245, 0.836);
+    padding-top: 5px;
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(186, 133, 228, 0.7)
+}
